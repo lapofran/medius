@@ -13,8 +13,8 @@
             {{ MEDIUS_AUTHORS.get(author|string).description }}
         </p>
         <ul class="author-links">
-            {% for icon, link in MEDIUS_AUTHORS.get(author|string).links %}
-            <li><a href="{{ link }}"><i class="fa fa-{{ icon }}"></i></a>
+            {% for type, icon, link in MEDIUS_AUTHORS.get(author|string).links %}
+            <li><a href="{{ link }}"><i class="{{ type }} {{ icon }}"></i></a>
             {% endfor %}
         </ul>
     </div>
