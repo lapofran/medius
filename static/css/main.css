@@ -217,6 +217,11 @@ div.page-container {
         line-height: 1.3;
         color: rgba(0, 0, 0, 0.6);
         margin: 4px 0; }
+      div.page-container footer div.post-footer p.quote {
+          font-size: 14px;
+          line-height: 1.3;
+          color: rgba(0, 0, 0, 0.3);
+          margin: 4px 0; }
       div.page-container footer div.post-footer div.poster-info {
         margin-top: 20px; }
         div.page-container footer div.post-footer div.poster-info img {
